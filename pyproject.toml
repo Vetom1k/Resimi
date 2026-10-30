@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resimi"
+version = "1.0.0"
+description = "Official Python SDK for the Resimi SMM panel API v2 - crypto-funded wholesale SMM services for resellers and agencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Resimi" }]
+keywords = ["resimi", "smm", "smm panel", "smm api", "social media marketing", "reseller", "api v2", "sdk"]
+dependencies = ["requests>=2.20"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://resimismm.com"
+Documentation = "https://resimismm.com/api-docs"
+"Issue Tracker" = "https://github.com/Vetom1k/Resimi/issues"
+Source = "https://github.com/Vetom1k/Resimi"
+
+[tool.setuptools]
+packages = ["resimi"]
