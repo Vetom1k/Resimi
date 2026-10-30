@@ -19,8 +19,10 @@ Resimi is a crypto-native SMM panel and wholesale API provider for resellers, ag
 ## Installation
 
 ```bash
-pip install resimi
+pip install git+https://github.com/Vetom1k/Resimi.git@v1.0.0
 ```
+
+(PyPI release coming soon in v1.1)
 
 Or install from source:
 
